@@ -354,28 +354,28 @@
     "type": "string",
     "description": "Seller inventory website URL",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "sellerLatitude",
     "type": "float",
     "description": "Seller location latitude",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "sellerLongitude",
     "type": "float",
     "description": "Seller location longitude",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "sellerGroupName",
     "type": "string",
     "description": "Seller group/parent company name",
     "fillRate": 75,
-    "premium": false
+    "premium": true
   },
   {
     "name": "sellerLogoUrl",

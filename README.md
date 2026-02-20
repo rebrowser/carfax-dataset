@@ -78,10 +78,10 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 | `sellerRating` | `float` | 94% | Seller average rating (1-5 scale) |
 | `sellerReviewCount` | `float` | 94% | Number of seller reviews |
 | `sellerId` | `string` | 100% | CARFAX seller/dealer identifier |
-| `sellerInventoryUrl` | `string` | 100% | Seller inventory website URL |
-| `sellerLatitude` | `float` | 100% | Seller location latitude |
-| `sellerLongitude` | `float` | 100% | Seller location longitude |
-| `sellerGroupName` | `string` | 75% | Seller group/parent company name |
+| `sellerInventoryUrl` 🔒 | `string` | 100% | Seller inventory website URL |
+| `sellerLatitude` 🔒 | `float` | 100% | Seller location latitude |
+| `sellerLongitude` 🔒 | `float` | 100% | Seller location longitude |
+| `sellerGroupName` 🔒 | `string` | 75% | Seller group/parent company name |
 | `sellerLogoUrl` 🔒 | `string` | 44% | Seller logo image URL |
 | `sellerBadgeExperience` | `string` | 100% | Seller badge experience type (e.g., TOPRATED, LIFETIME, ADVANTAGE) |
 | `reliabilityBadge` | `string` | 29% | Overall reliability badge (e.g., GOOD, AVERAGE, POOR) |
