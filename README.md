@@ -31,7 +31,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 | `_primaryKey` | `string` | 100% | Unique identifier for this record |
 | `_firstSeenAt` | `datetime` | 100% | First time this record was seen |
 | `_lastSeenAt` | `datetime` | 100% | Last time this record was updated |
-| `listingId` | `string` | 100% | Unique CARFAX listing identifier (VIN + dealer code + date) |
+| `listingId` 🔒 | `string` | 100% | Unique CARFAX listing identifier (VIN + dealer code + date) |
 | `vin` 🔒 | `string` | 100% | Vehicle Identification Number (17-character unique code) |
 | `stockNumber` | `string` | 98% | Dealer stock number |
 | `year` | `float` | 100% | Vehicle model year |
@@ -88,7 +88,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 | `reliabilityCostBadge` | `string` | 29% | Repair cost badge (e.g., AVERAGE, LOW, HIGH) |
 | `reliabilityRiskBadge` | `string` | 29% | Repair risk badge (e.g., AVERAGE, LOW, HIGH) |
 | `reliabilityAvgCost` | `float` | 29% | Average repair cost in USD |
-| `listingUrl` | `string` | 100% | Vehicle listing page URL |
+| `listingUrl` 🔒 | `string` | 100% | Vehicle listing page URL |
 | `images` 🔒 | `array` | 95% | Array of large image URLs |
 | `imagesCount` | `float` | 95% | Number of listing images |
 | `topOptions` | `array` | 97% | Top vehicle options/features |
@@ -362,6 +362,6 @@ Commercial use requires a paid license — see [pricing](https://rebrowser.net/p
 Rebrowser is an independent data provider and is not affiliated with, endorsed by, or sponsored by Carfax. Any trademarks are the property of their respective owners. This dataset is compiled from publicly available information; we do not request or collect Carfax user credentials. By using this dataset, you agree to comply with Carfax's Terms of Service and all applicable laws and regulations. Images, logos, descriptions, and other materials included in this dataset remain the intellectual property of their respective owners and are provided solely for informational purposes. Rebrowser makes no warranties regarding the accuracy, completeness, or legality of the data and assumes no liability for how the data is used. You are solely responsible for ensuring that your use of this dataset does not infringe on the rights of any third party.
 
 
-You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/carfax-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/carfax-dataset).
+You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/carfax-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/carfax-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18716099).
 
 

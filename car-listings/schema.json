@@ -25,7 +25,7 @@
     "type": "string",
     "description": "Unique CARFAX listing identifier (VIN + dealer code + date)",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "vin",
@@ -424,7 +424,7 @@
     "type": "string",
     "description": "Vehicle listing page URL",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "images",
