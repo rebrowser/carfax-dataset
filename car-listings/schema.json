@@ -1,0 +1,506 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingId",
+    "type": "string",
+    "description": "Unique CARFAX listing identifier (VIN + dealer code + date)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "vin",
+    "type": "string",
+    "description": "Vehicle Identification Number (17-character unique code)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "stockNumber",
+    "type": "string",
+    "description": "Dealer stock number",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "year",
+    "type": "float",
+    "description": "Vehicle model year",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "make",
+    "type": "string",
+    "description": "Vehicle manufacturer (e.g., Nissan, Toyota, Honda)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "model",
+    "type": "string",
+    "description": "Vehicle model (e.g., Sentra, Camry, Accord)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "trim",
+    "type": "string",
+    "description": "Vehicle trim level (e.g., SV, EX, Limited)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "subTrim",
+    "type": "string",
+    "description": "Vehicle sub-trim (often \"Unspecified\")",
+    "fillRate": 14,
+    "premium": false
+  },
+  {
+    "name": "bodyStyle",
+    "type": "string",
+    "description": "Vehicle body style (e.g., Sedan, SUV, Truck, Coupe)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "exteriorColor",
+    "type": "string",
+    "description": "Vehicle exterior color (e.g., White, Black, Red)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "interiorColor",
+    "type": "string",
+    "description": "Vehicle interior color (e.g., Black, Gray, Tan)",
+    "fillRate": 91,
+    "premium": false
+  },
+  {
+    "name": "engine",
+    "type": "string",
+    "description": "Engine type (e.g., \"4 Cyl\", \"6 Cyl\", \"8 Cyl\")",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "displacement",
+    "type": "string",
+    "description": "Engine displacement (e.g., \"2.0 L\", \"3.5 L\")",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "drivetrain",
+    "type": "string",
+    "description": "Drivetrain type (e.g., FWD, RWD, AWD, 4WD)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "transmission",
+    "type": "string",
+    "description": "Transmission type (e.g., Automatic, Manual, CVT)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "fuelType",
+    "type": "string",
+    "description": "Fuel type (e.g., Gasoline, Diesel, Electric, Hybrid)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mileage",
+    "type": "float",
+    "description": "Odometer reading in miles",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listPrice",
+    "type": "float",
+    "description": "Listed price in USD",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "currentPrice",
+    "type": "float",
+    "description": "Current asking price in USD",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "onePrice",
+    "type": "float",
+    "description": "CARFAX One Price value estimate in USD",
+    "fillRate": 88,
+    "premium": false
+  },
+  {
+    "name": "badge",
+    "type": "string",
+    "description": "CARFAX value badge (e.g., GOOD, GREAT, FAIR)",
+    "fillRate": 80,
+    "premium": false
+  },
+  {
+    "name": "vehicleCondition",
+    "type": "string",
+    "description": "Vehicle condition (e.g., Used, Certified, New)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "cabType",
+    "type": "string",
+    "description": "Truck cab type (e.g., Crew Cab, Extended Cab, Regular Cab)",
+    "fillRate": 22,
+    "premium": false
+  },
+  {
+    "name": "bedLength",
+    "type": "string",
+    "description": "Truck bed length (e.g., Short Bed, Long Bed)",
+    "fillRate": 16,
+    "premium": false
+  },
+  {
+    "name": "mpgCity",
+    "type": "float",
+    "description": "City fuel economy in MPG",
+    "fillRate": 88,
+    "premium": false
+  },
+  {
+    "name": "mpgHighway",
+    "type": "float",
+    "description": "Highway fuel economy in MPG",
+    "fillRate": 88,
+    "premium": false
+  },
+  {
+    "name": "mpgCombined",
+    "type": "float",
+    "description": "Combined fuel economy in MPG",
+    "fillRate": 88,
+    "premium": false
+  },
+  {
+    "name": "noAccidents",
+    "type": "bool",
+    "description": "Whether vehicle has no reported accidents",
+    "fillRate": 67,
+    "premium": false
+  },
+  {
+    "name": "serviceRecords",
+    "type": "bool",
+    "description": "Whether vehicle has service history records",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "personalUse",
+    "type": "bool",
+    "description": "Whether vehicle was used for personal use",
+    "fillRate": 71,
+    "premium": false
+  },
+  {
+    "name": "oneOwner",
+    "type": "bool",
+    "description": "Whether vehicle has only one previous owner",
+    "fillRate": 50,
+    "premium": false
+  },
+  {
+    "name": "ownerHistory",
+    "type": "array",
+    "description": "Array of owner history records (JSON strings with ownerNumber, purchaseDate, endOwnershipDate, city, state)",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "serviceRecordCount",
+    "type": "float",
+    "description": "Number of service history records",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "imageCount",
+    "type": "float",
+    "description": "Number of listing photos",
+    "fillRate": 95,
+    "premium": false
+  },
+  {
+    "name": "followCount",
+    "type": "float",
+    "description": "Number of users following this listing",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "firstSeen",
+    "type": "string",
+    "description": "Date listing first appeared (YYYY-MM-DD)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "recordType",
+    "type": "string",
+    "description": "CARFAX record type (e.g., ENHANCED, BASIC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerType",
+    "type": "string",
+    "description": "Seller type (e.g., NEW, USED)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "advantage",
+    "type": "bool",
+    "description": "Whether seller has CARFAX Advantage badge",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "sellerName",
+    "type": "string",
+    "description": "Seller/dealer name",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "sellerCity",
+    "type": "string",
+    "description": "Seller city",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerState",
+    "type": "string",
+    "description": "Seller state code",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerZip",
+    "type": "string",
+    "description": "Seller ZIP code",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerPhone",
+    "type": "string",
+    "description": "Seller phone number",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "sellerRating",
+    "type": "float",
+    "description": "Seller average rating (1-5 scale)",
+    "fillRate": 94,
+    "premium": false
+  },
+  {
+    "name": "sellerReviewCount",
+    "type": "float",
+    "description": "Number of seller reviews",
+    "fillRate": 94,
+    "premium": false
+  },
+  {
+    "name": "sellerId",
+    "type": "string",
+    "description": "CARFAX seller/dealer identifier",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerInventoryUrl",
+    "type": "string",
+    "description": "Seller inventory website URL",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerLatitude",
+    "type": "float",
+    "description": "Seller location latitude",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerLongitude",
+    "type": "float",
+    "description": "Seller location longitude",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerGroupName",
+    "type": "string",
+    "description": "Seller group/parent company name",
+    "fillRate": 75,
+    "premium": false
+  },
+  {
+    "name": "sellerLogoUrl",
+    "type": "string",
+    "description": "Seller logo image URL",
+    "fillRate": 44,
+    "premium": true
+  },
+  {
+    "name": "sellerBadgeExperience",
+    "type": "string",
+    "description": "Seller badge experience type (e.g., TOPRATED, LIFETIME, ADVANTAGE)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "reliabilityBadge",
+    "type": "string",
+    "description": "Overall reliability badge (e.g., GOOD, AVERAGE, POOR)",
+    "fillRate": 29,
+    "premium": false
+  },
+  {
+    "name": "reliabilityCostBadge",
+    "type": "string",
+    "description": "Repair cost badge (e.g., AVERAGE, LOW, HIGH)",
+    "fillRate": 29,
+    "premium": false
+  },
+  {
+    "name": "reliabilityRiskBadge",
+    "type": "string",
+    "description": "Repair risk badge (e.g., AVERAGE, LOW, HIGH)",
+    "fillRate": 29,
+    "premium": false
+  },
+  {
+    "name": "reliabilityAvgCost",
+    "type": "float",
+    "description": "Average repair cost in USD",
+    "fillRate": 29,
+    "premium": false
+  },
+  {
+    "name": "listingUrl",
+    "type": "string",
+    "description": "Vehicle listing page URL",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "images",
+    "type": "array",
+    "description": "Array of large image URLs",
+    "fillRate": 95,
+    "premium": true
+  },
+  {
+    "name": "imagesCount",
+    "type": "float",
+    "description": "Number of listing images",
+    "fillRate": 95,
+    "premium": false
+  },
+  {
+    "name": "topOptions",
+    "type": "array",
+    "description": "Top vehicle options/features",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "topOptionsCount",
+    "type": "float",
+    "description": "Number of top options/features",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "otherOptions",
+    "type": "array",
+    "description": "Additional vehicle options/features",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "otherOptionsCount",
+    "type": "float",
+    "description": "Number of other options/features",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Seller description of the vehicle",
+    "fillRate": 92,
+    "premium": false
+  },
+  {
+    "name": "icrUrl",
+    "type": "string",
+    "description": "URL to CARFAX vehicle history report",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "windowSticker",
+    "type": "string",
+    "description": "URL to vehicle window sticker",
+    "fillRate": 53,
+    "premium": true
+  },
+  {
+    "name": "sortScore",
+    "type": "float",
+    "description": "CARFAX listing sort/ranking score",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "snapshotDamageSeverity",
+    "type": "string",
+    "description": "Damage severity from snapshot (e.g., minor, moderate, severe)",
+    "fillRate": 8,
+    "premium": false
+  }
+]
