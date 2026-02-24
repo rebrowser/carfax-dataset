@@ -192,21 +192,21 @@
     "name": "mpgCity",
     "type": "float",
     "description": "City fuel economy in MPG",
-    "fillRate": 87,
+    "fillRate": 88,
     "premium": false
   },
   {
     "name": "mpgHighway",
     "type": "float",
     "description": "Highway fuel economy in MPG",
-    "fillRate": 87,
+    "fillRate": 88,
     "premium": false
   },
   {
     "name": "mpgCombined",
     "type": "float",
     "description": "Combined fuel economy in MPG",
-    "fillRate": 87,
+    "fillRate": 88,
     "premium": false
   },
   {
