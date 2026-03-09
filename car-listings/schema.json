@@ -213,7 +213,7 @@
     "name": "noAccidents",
     "type": "bool",
     "description": "Whether vehicle has no reported accidents",
-    "fillRate": 67,
+    "fillRate": 68,
     "premium": false
   },
   {
@@ -374,7 +374,7 @@
     "name": "sellerGroupName",
     "type": "string",
     "description": "Seller group/parent company name",
-    "fillRate": 75,
+    "fillRate": 76,
     "premium": true
   },
   {
@@ -395,28 +395,28 @@
     "name": "reliabilityBadge",
     "type": "string",
     "description": "Overall reliability badge (e.g., GOOD, AVERAGE, POOR)",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
     "name": "reliabilityCostBadge",
     "type": "string",
     "description": "Repair cost badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
     "name": "reliabilityRiskBadge",
     "type": "string",
     "description": "Repair risk badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
     "name": "reliabilityAvgCost",
     "type": "float",
     "description": "Average repair cost in USD",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
@@ -486,7 +486,7 @@
     "name": "windowSticker",
     "type": "string",
     "description": "URL to vehicle window sticker",
-    "fillRate": 53,
+    "fillRate": 54,
     "premium": true
   },
   {
