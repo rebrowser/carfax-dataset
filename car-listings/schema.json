@@ -213,7 +213,7 @@
     "name": "noAccidents",
     "type": "bool",
     "description": "Whether vehicle has no reported accidents",
-    "fillRate": 68,
+    "fillRate": 67,
     "premium": false
   },
   {
@@ -395,28 +395,28 @@
     "name": "reliabilityBadge",
     "type": "string",
     "description": "Overall reliability badge (e.g., GOOD, AVERAGE, POOR)",
-    "fillRate": 27,
+    "fillRate": 29,
     "premium": false
   },
   {
     "name": "reliabilityCostBadge",
     "type": "string",
     "description": "Repair cost badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 27,
+    "fillRate": 29,
     "premium": false
   },
   {
     "name": "reliabilityRiskBadge",
     "type": "string",
     "description": "Repair risk badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 27,
+    "fillRate": 29,
     "premium": false
   },
   {
     "name": "reliabilityAvgCost",
     "type": "float",
     "description": "Average repair cost in USD",
-    "fillRate": 27,
+    "fillRate": 29,
     "premium": false
   },
   {
