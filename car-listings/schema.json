@@ -381,7 +381,7 @@
     "name": "sellerLogoUrl",
     "type": "string",
     "description": "Seller logo image URL",
-    "fillRate": 44,
+    "fillRate": 45,
     "premium": true
   },
   {
