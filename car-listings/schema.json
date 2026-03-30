@@ -444,14 +444,14 @@
     "name": "topOptions",
     "type": "array",
     "description": "Top vehicle options/features",
-    "fillRate": 97,
+    "fillRate": 98,
     "premium": false
   },
   {
     "name": "topOptionsCount",
     "type": "float",
     "description": "Number of top options/features",
-    "fillRate": 97,
+    "fillRate": 98,
     "premium": false
   },
   {
