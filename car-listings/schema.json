@@ -213,7 +213,7 @@
     "name": "noAccidents",
     "type": "bool",
     "description": "Whether vehicle has no reported accidents",
-    "fillRate": 67,
+    "fillRate": 68,
     "premium": false
   },
   {
