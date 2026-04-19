@@ -185,7 +185,7 @@
     "name": "bedLength",
     "type": "string",
     "description": "Truck bed length (e.g., Short Bed, Long Bed)",
-    "fillRate": 16,
+    "fillRate": 17,
     "premium": false
   },
   {
