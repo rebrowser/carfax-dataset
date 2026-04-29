@@ -458,14 +458,14 @@
     "name": "otherOptions",
     "type": "array",
     "description": "Additional vehicle options/features",
-    "fillRate": 99,
+    "fillRate": 100,
     "premium": false
   },
   {
     "name": "otherOptionsCount",
     "type": "float",
     "description": "Number of other options/features",
-    "fillRate": 99,
+    "fillRate": 100,
     "premium": false
   },
   {
@@ -486,7 +486,7 @@
     "name": "windowSticker",
     "type": "string",
     "description": "URL to vehicle window sticker",
-    "fillRate": 54,
+    "fillRate": 55,
     "premium": true
   },
   {
