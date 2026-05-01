@@ -185,28 +185,28 @@
     "name": "bedLength",
     "type": "string",
     "description": "Truck bed length (e.g., Short Bed, Long Bed)",
-    "fillRate": 17,
+    "fillRate": 16,
     "premium": false
   },
   {
     "name": "mpgCity",
     "type": "float",
     "description": "City fuel economy in MPG",
-    "fillRate": 88,
+    "fillRate": 89,
     "premium": false
   },
   {
     "name": "mpgHighway",
     "type": "float",
     "description": "Highway fuel economy in MPG",
-    "fillRate": 88,
+    "fillRate": 89,
     "premium": false
   },
   {
     "name": "mpgCombined",
     "type": "float",
     "description": "Combined fuel economy in MPG",
-    "fillRate": 88,
+    "fillRate": 89,
     "premium": false
   },
   {
