@@ -185,7 +185,7 @@
     "name": "bedLength",
     "type": "string",
     "description": "Truck bed length (e.g., Short Bed, Long Bed)",
-    "fillRate": 16,
+    "fillRate": 17,
     "premium": false
   },
   {
@@ -255,7 +255,7 @@
     "name": "imageCount",
     "type": "float",
     "description": "Number of listing photos",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": false
   },
   {
@@ -430,14 +430,14 @@
     "name": "images",
     "type": "array",
     "description": "Array of large image URLs",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": false
   },
   {
