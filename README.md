@@ -1,6 +1,6 @@
 # Carfax Used Car Listings & Dealer Inventory Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--05--09-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-4.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
+![Updated](https://img.shields.io/badge/updated-2026--05--10-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-4.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
 
 A sample of Carfax marketplace listings with vehicle specs, mileage, dealer ratings, history verification, reliability badges, and One Price value estimates.
 
@@ -225,23 +225,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 3,958,277 records
+[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 3,964,280 records
 
 ↳ `[{"sort":"currentPrice DESC"}]`
 
-[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 2,669,665 records
+[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 2,674,600 records
 
 ↳ `[{"field":"noAccidents","op":"isTrue"},{"sort":"currentPrice DESC"}]`
 
-[New Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/new-vehicle-listings) — 572 records
+[New Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/new-vehicle-listings) — 573 records
 
 ↳ `[{"field":"vehicleCondition","op":"is","value":"New"},{"sort":"currentPrice DESC"}]`
 
-[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 3,922,773 records
+[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 3,928,101 records
 
 ↳ `[{"field":"advantage","op":"isTrue"},{"sort":"sellerRating DESC"}]`
 
-[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 1,993,362 records
+[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 1,997,348 records
 
 ↳ `[{"field":"oneOwner","op":"isTrue"},{"sort":"mileage ASC"}]`
 
