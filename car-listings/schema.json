@@ -164,7 +164,7 @@
     "name": "badge",
     "type": "string",
     "description": "CARFAX value badge (e.g., GOOD, GREAT, FAIR)",
-    "fillRate": 82,
+    "fillRate": 81,
     "premium": false
   },
   {
@@ -255,7 +255,7 @@
     "name": "imageCount",
     "type": "float",
     "description": "Number of listing photos",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -430,14 +430,14 @@
     "name": "images",
     "type": "array",
     "description": "Array of large image URLs",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
