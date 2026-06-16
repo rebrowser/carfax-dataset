@@ -227,7 +227,7 @@
     "name": "personalUse",
     "type": "bool",
     "description": "Whether vehicle was used for personal use",
-    "fillRate": 71,
+    "fillRate": 72,
     "premium": false
   },
   {
