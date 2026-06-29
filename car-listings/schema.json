@@ -332,14 +332,14 @@
     "name": "sellerRating",
     "type": "float",
     "description": "Seller average rating (1-5 scale)",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
     "name": "sellerReviewCount",
     "type": "float",
     "description": "Number of seller reviews",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
