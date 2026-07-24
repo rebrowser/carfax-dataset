@@ -164,7 +164,7 @@
     "name": "badge",
     "type": "string",
     "description": "CARFAX value badge (e.g., GOOD, GREAT, FAIR)",
-    "fillRate": 81,
+    "fillRate": 80,
     "premium": false
   },
   {
