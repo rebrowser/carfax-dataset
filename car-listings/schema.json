@@ -157,7 +157,7 @@
     "name": "onePrice",
     "type": "float",
     "description": "CARFAX One Price value estimate in USD",
-    "fillRate": 88,
+    "fillRate": 87,
     "premium": false
   },
   {
