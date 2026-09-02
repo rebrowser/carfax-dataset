@@ -1,6 +1,6 @@
 # Carfax Used Car Listings & Dealer Inventory Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-6.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
+![Updated](https://img.shields.io/badge/updated-2026--09--02-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-6.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
 
 A sample of Carfax marketplace listings with vehicle specs, mileage, dealer ratings, history verification, reliability badges, and One Price value estimates.
 
@@ -21,7 +21,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 
 
-> **6,757,534** total records from 2025-11-16 to 2026-08-30, **up to 30,000** rows in this sample (0.44% of full dataset).
+> **6,800,549** total records from 2025-11-16 to 2026-08-30, **up to 30,000** rows in this sample (0.44% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -64,7 +64,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 | `oneOwner` | `bool` | 51% | Whether vehicle has only one previous owner |
 | `ownerHistory` | `array` | 97% | Array of owner history records (JSON strings with ownerNumber, purchaseDate, endOwnershipDate, city, state) |
 | `serviceRecordCount` | `float` | 100% | Number of service history records |
-| `imageCount` | `float` | 94% | Number of listing photos |
+| `imageCount` | `float` | 93% | Number of listing photos |
 | `followCount` | `float` | 100% | Number of users following this listing |
 | `firstSeen` | `string` | 100% | Date listing first appeared (YYYY-MM-DD) |
 | `recordType` | `string` | 100% | CARFAX record type (e.g., ENHANCED, BASIC) |
@@ -89,8 +89,8 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 | `reliabilityRiskBadge` | `string` | 29% | Repair risk badge (e.g., AVERAGE, LOW, HIGH) |
 | `reliabilityAvgCost` | `float` | 29% | Average repair cost in USD |
 | `listingUrl` 🔒 | `string` | 100% | Vehicle listing page URL |
-| `images` 🔒 | `array` | 94% | Array of large image URLs |
-| `imagesCount` | `float` | 94% | Number of listing images |
+| `images` 🔒 | `array` | 93% | Array of large image URLs |
+| `imagesCount` | `float` | 93% | Number of listing images |
 | `topOptions` | `array` | 98% | Top vehicle options/features |
 | `topOptionsCount` | `float` | 98% | Number of top options/features |
 | `otherOptions` | `array` | 100% | Additional vehicle options/features |
@@ -116,16 +116,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 2,830,990 | `████████░░░░░░░░░░░░` 41.9% |
-| Sedan | 1,451,199 | `████░░░░░░░░░░░░░░░░` 21.5% |
-| Pickup | 1,440,572 | `████░░░░░░░░░░░░░░░░` 21.3% |
-| Coupe | 239,893 | `█░░░░░░░░░░░░░░░░░░░` 3.5% |
-| Minivan | 191,692 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| Hatchback | 190,323 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| Wagon | 158,371 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
-| Convertible | 121,273 | `░░░░░░░░░░░░░░░░░░░░` 1.8% |
-| Van | 101,037 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
-| Chassis | 32,202 | `░░░░░░░░░░░░░░░░░░░░` 0.5% |
+| SUV | 2,847,730 | `████████░░░░░░░░░░░░` 41.9% |
+| Sedan | 1,461,180 | `████░░░░░░░░░░░░░░░░` 21.5% |
+| Pickup | 1,452,237 | `████░░░░░░░░░░░░░░░░` 21.4% |
+| Coupe | 241,048 | `█░░░░░░░░░░░░░░░░░░░` 3.5% |
+| Minivan | 192,769 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Hatchback | 191,405 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Wagon | 158,547 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
+| Convertible | 121,896 | `░░░░░░░░░░░░░░░░░░░░` 1.8% |
+| Van | 101,378 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
+| Chassis | 32,352 | `░░░░░░░░░░░░░░░░░░░░` 0.5% |
 
 </details>
 
@@ -136,16 +136,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Ford | 863,354 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| Chevrolet | 751,649 | `███░░░░░░░░░░░░░░░░░` 16.6% |
-| Toyota | 692,156 | `███░░░░░░░░░░░░░░░░░` 15.3% |
-| Honda | 468,563 | `██░░░░░░░░░░░░░░░░░░` 10.3% |
-| Jeep | 328,071 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
-| Nissan | 328,025 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
-| GMC | 309,591 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
-| Ram | 279,704 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
-| BMW | 272,962 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| Mercedes-Benz | 244,256 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| Ford | 868,876 | `████░░░░░░░░░░░░░░░░` 19.0% |
+| Chevrolet | 756,637 | `███░░░░░░░░░░░░░░░░░` 16.6% |
+| Toyota | 696,887 | `███░░░░░░░░░░░░░░░░░` 15.3% |
+| Honda | 471,796 | `██░░░░░░░░░░░░░░░░░░` 10.3% |
+| Nissan | 330,453 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| Jeep | 330,311 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| GMC | 311,736 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
+| Ram | 281,898 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
+| BMW | 274,603 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| Mercedes-Benz | 245,468 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 
 </details>
 
@@ -156,11 +156,11 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| FWD | 1,982,545 | `██████░░░░░░░░░░░░░░` 29.3% |
-| 4WD | 1,930,094 | `██████░░░░░░░░░░░░░░` 28.6% |
-| AWD | 1,884,703 | `██████░░░░░░░░░░░░░░` 27.9% |
-| RWD | 957,790 | `███░░░░░░░░░░░░░░░░░` 14.2% |
-| Unspecified | 2,426 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| FWD | 1,996,047 | `██████░░░░░░░░░░░░░░` 29.4% |
+| 4WD | 1,943,290 | `██████░░░░░░░░░░░░░░` 28.6% |
+| AWD | 1,895,178 | `██████░░░░░░░░░░░░░░` 27.9% |
+| RWD | 963,585 | `███░░░░░░░░░░░░░░░░░` 14.2% |
+| Unspecified | 2,448 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 | 2WD | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
@@ -172,16 +172,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 748,417 | `████░░░░░░░░░░░░░░░░` 20.4% |
-| CA | 700,861 | `████░░░░░░░░░░░░░░░░` 19.1% |
-| FL | 647,467 | `████░░░░░░░░░░░░░░░░` 17.7% |
-| NC | 243,496 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
-| OH | 231,953 | `█░░░░░░░░░░░░░░░░░░░` 6.3% |
-| PA | 223,986 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| GA | 223,116 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| AZ | 218,800 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| NJ | 216,549 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
-| IL | 208,994 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| TX | 753,912 | `████░░░░░░░░░░░░░░░░` 20.4% |
+| CA | 704,973 | `████░░░░░░░░░░░░░░░░` 19.1% |
+| FL | 652,293 | `████░░░░░░░░░░░░░░░░` 17.7% |
+| NC | 245,023 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
+| OH | 232,937 | `█░░░░░░░░░░░░░░░░░░░` 6.3% |
+| PA | 225,387 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| GA | 225,072 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| AZ | 220,001 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| NJ | 217,939 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
+| IL | 210,224 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
 
 </details>
 
@@ -192,9 +192,9 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| GREAT | 2,337,778 | `█████████░░░░░░░░░░░` 43.5% |
-| GOOD | 1,762,154 | `███████░░░░░░░░░░░░░` 32.8% |
-| FAIR | 1,268,522 | `█████░░░░░░░░░░░░░░░` 23.6% |
+| GREAT | 2,349,705 | `█████████░░░░░░░░░░░` 43.5% |
+| GOOD | 1,773,046 | `███████░░░░░░░░░░░░░` 32.8% |
+| FAIR | 1,275,677 | `█████░░░░░░░░░░░░░░░` 23.6% |
 
 </details>
 
@@ -205,7 +205,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 6,756,912 | `████████████████████` 100.0% |
+| Used | 6,799,902 | `████████████████████` 100.0% |
 | New | 647 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
@@ -225,11 +225,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 6,456,283 records
+[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 6,477,774 records
 
 ↳ `[{"sort":"currentPrice DESC"}]`
 
-[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 4,372,815 records
+[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 4,387,720 records
 
 ↳ `[{"field":"noAccidents","op":"isTrue"},{"sort":"currentPrice DESC"}]`
 
@@ -237,11 +237,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"vehicleCondition","op":"is","value":"New"},{"sort":"currentPrice DESC"}]`
 
-[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 6,389,119 records
+[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 6,410,361 records
 
 ↳ `[{"field":"advantage","op":"isTrue"},{"sort":"sellerRating DESC"}]`
 
-[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 3,288,997 records
+[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 3,300,494 records
 
 ↳ `[{"field":"oneOwner","op":"isTrue"},{"sort":"mileage ASC"}]`
 
