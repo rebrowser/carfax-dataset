@@ -1,6 +1,6 @@
 # Carfax Used Car Listings & Dealer Inventory Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--13-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-6.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
+![Updated](https://img.shields.io/badge/updated-2026--09--15-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-6.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carfax)
 
 A sample of Carfax marketplace listings with vehicle specs, mileage, dealer ratings, history verification, reliability badges, and One Price value estimates.
 
@@ -21,7 +21,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 
 
-> **6,894,050** total records from 2025-11-16 to 2026-09-06, **up to 30,000** rows in this sample (0.44% of full dataset).
+> **6,947,406** total records from 2025-11-16 to 2026-09-13, **up to 30,000** rows in this sample (0.43% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -116,16 +116,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 2,877,741 | `████████░░░░░░░░░░░░` 41.7% |
-| Sedan | 1,483,504 | `████░░░░░░░░░░░░░░░░` 21.5% |
-| Pickup | 1,477,729 | `████░░░░░░░░░░░░░░░░` 21.4% |
-| Coupe | 245,206 | `█░░░░░░░░░░░░░░░░░░░` 3.6% |
-| Minivan | 195,702 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| Hatchback | 194,340 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| Wagon | 161,389 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
-| Convertible | 123,575 | `░░░░░░░░░░░░░░░░░░░░` 1.8% |
-| Van | 102,211 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
-| Chassis | 32,646 | `░░░░░░░░░░░░░░░░░░░░` 0.5% |
+| SUV | 2,911,292 | `████████░░░░░░░░░░░░` 41.9% |
+| Sedan | 1,492,397 | `████░░░░░░░░░░░░░░░░` 21.5% |
+| Pickup | 1,482,751 | `████░░░░░░░░░░░░░░░░` 21.3% |
+| Coupe | 246,326 | `█░░░░░░░░░░░░░░░░░░░` 3.5% |
+| Minivan | 196,969 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Hatchback | 194,949 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Wagon | 162,115 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
+| Convertible | 124,265 | `░░░░░░░░░░░░░░░░░░░░` 1.8% |
+| Van | 103,409 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
+| Chassis | 32,926 | `░░░░░░░░░░░░░░░░░░░░` 0.5% |
 
 </details>
 
@@ -136,16 +136,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Ford | 881,308 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| Chevrolet | 767,461 | `███░░░░░░░░░░░░░░░░░` 16.6% |
-| Toyota | 707,570 | `███░░░░░░░░░░░░░░░░░` 15.3% |
-| Honda | 478,360 | `██░░░░░░░░░░░░░░░░░░` 10.3% |
-| Nissan | 335,155 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
-| Jeep | 334,008 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
-| GMC | 316,186 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
-| Ram | 286,431 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
-| BMW | 278,210 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| Mercedes-Benz | 248,431 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| Ford | 887,002 | `████░░░░░░░░░░░░░░░░` 19.0% |
+| Chevrolet | 772,468 | `███░░░░░░░░░░░░░░░░░` 16.6% |
+| Toyota | 712,795 | `███░░░░░░░░░░░░░░░░░` 15.3% |
+| Honda | 482,146 | `██░░░░░░░░░░░░░░░░░░` 10.3% |
+| Nissan | 337,909 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| Jeep | 337,423 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| GMC | 317,982 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
+| Ram | 287,610 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
+| BMW | 280,579 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| Mercedes-Benz | 250,638 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 
 </details>
 
@@ -156,11 +156,11 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| FWD | 2,023,643 | `██████░░░░░░░░░░░░░░` 29.4% |
-| 4WD | 1,971,561 | `██████░░░░░░░░░░░░░░` 28.6% |
-| AWD | 1,918,827 | `██████░░░░░░░░░░░░░░` 27.8% |
-| RWD | 977,535 | `███░░░░░░░░░░░░░░░░░` 14.2% |
-| Unspecified | 2,483 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| FWD | 2,038,843 | `██████░░░░░░░░░░░░░░` 29.3% |
+| 4WD | 1,983,840 | `██████░░░░░░░░░░░░░░` 28.6% |
+| AWD | 1,938,623 | `██████░░░░░░░░░░░░░░` 27.9% |
+| RWD | 983,600 | `███░░░░░░░░░░░░░░░░░` 14.2% |
+| Unspecified | 2,499 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 | 2WD | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
@@ -172,16 +172,16 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 766,086 | `████░░░░░░░░░░░░░░░░` 20.5% |
-| CA | 714,187 | `████░░░░░░░░░░░░░░░░` 19.1% |
-| FL | 659,654 | `████░░░░░░░░░░░░░░░░` 17.6% |
-| NC | 248,656 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
-| OH | 236,319 | `█░░░░░░░░░░░░░░░░░░░` 6.3% |
-| GA | 228,141 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| PA | 227,846 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| AZ | 223,313 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| NJ | 220,424 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
-| IL | 212,952 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| TX | 770,575 | `████░░░░░░░░░░░░░░░░` 20.5% |
+| CA | 721,494 | `████░░░░░░░░░░░░░░░░` 19.2% |
+| FL | 664,570 | `████░░░░░░░░░░░░░░░░` 17.6% |
+| NC | 250,807 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
+| OH | 238,108 | `█░░░░░░░░░░░░░░░░░░░` 6.3% |
+| PA | 230,132 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| GA | 229,064 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| AZ | 225,613 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| NJ | 221,747 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
+| IL | 214,649 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
 
 </details>
 
@@ -192,9 +192,9 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| GREAT | 2,370,743 | `█████████░░░░░░░░░░░` 43.4% |
-| GOOD | 1,794,067 | `███████░░░░░░░░░░░░░` 32.9% |
-| FAIR | 1,294,791 | `█████░░░░░░░░░░░░░░░` 23.7% |
+| GREAT | 2,385,018 | `█████████░░░░░░░░░░░` 43.4% |
+| GOOD | 1,807,090 | `███████░░░░░░░░░░░░░` 32.9% |
+| FAIR | 1,304,944 | `█████░░░░░░░░░░░░░░░` 23.7% |
 
 </details>
 
@@ -205,7 +205,7 @@ A sample of Carfax marketplace listings with year, make, model, mileage, body st
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 6,893,403 | `████████████████████` 100.0% |
+| Used | 6,946,759 | `████████████████████` 100.0% |
 | New | 647 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
@@ -225,11 +225,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 6,723,094 records
+[Listings with History Verification](https://rebrowser.net/products/datasets/carfax/car-listings/views/listings-with-history-verification) — 6,931,952 records
 
 ↳ `[{"sort":"currentPrice DESC"}]`
 
-[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 4,555,449 records
+[Clean Title No-Accident Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/clean-title-no-accidents) — 4,577,967 records
 
 ↳ `[{"field":"noAccidents","op":"isTrue"},{"sort":"currentPrice DESC"}]`
 
@@ -237,11 +237,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"vehicleCondition","op":"is","value":"New"},{"sort":"currentPrice DESC"}]`
 
-[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 6,652,504 records
+[Advantage Dealer Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/advantage-dealers) — 6,685,898 records
 
 ↳ `[{"field":"advantage","op":"isTrue"},{"sort":"sellerRating DESC"}]`
 
-[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 3,430,862 records
+[One-Owner Vehicle Listings](https://rebrowser.net/products/datasets/carfax/car-listings/views/one-owner-vehicles) — 3,447,700 records
 
 ↳ `[{"field":"oneOwner","op":"isTrue"},{"sort":"mileage ASC"}]`
 
