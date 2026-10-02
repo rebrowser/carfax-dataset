@@ -486,7 +486,7 @@
     "name": "windowSticker",
     "type": "string",
     "description": "URL to vehicle window sticker",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": true
   },
   {
