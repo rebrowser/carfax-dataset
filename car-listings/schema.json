@@ -164,7 +164,7 @@
     "name": "badge",
     "type": "string",
     "description": "CARFAX value badge (e.g., GOOD, GREAT, FAIR)",
-    "fillRate": 79,
+    "fillRate": 78,
     "premium": false
   },
   {
@@ -395,28 +395,28 @@
     "name": "reliabilityBadge",
     "type": "string",
     "description": "Overall reliability badge (e.g., GOOD, AVERAGE, POOR)",
-    "fillRate": 30,
+    "fillRate": 31,
     "premium": false
   },
   {
     "name": "reliabilityCostBadge",
     "type": "string",
     "description": "Repair cost badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 30,
+    "fillRate": 31,
     "premium": false
   },
   {
     "name": "reliabilityRiskBadge",
     "type": "string",
     "description": "Repair risk badge (e.g., AVERAGE, LOW, HIGH)",
-    "fillRate": 30,
+    "fillRate": 31,
     "premium": false
   },
   {
     "name": "reliabilityAvgCost",
     "type": "float",
     "description": "Average repair cost in USD",
-    "fillRate": 30,
+    "fillRate": 31,
     "premium": false
   },
   {
