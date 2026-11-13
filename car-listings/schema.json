@@ -234,7 +234,7 @@
     "name": "oneOwner",
     "type": "bool",
     "description": "Whether vehicle has only one previous owner",
-    "fillRate": 51,
+    "fillRate": 52,
     "premium": false
   },
   {
